@@ -1,0 +1,42 @@
+figcaption {
+    bottom : 70%;
+    margin-left: 70%;
+ 
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid, figure {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+figure img {
+margin-bottom: 0 !important;
+}
+@media only screen and (max-width: 560px) {
+    figcaption {
+        bottom : 40%;
+        margin-left: 40%;
+        font-size: 20px !important;
+    }
+  }
+  @media only screen and (max-width: 1600px) and (min-width: 720px) {
+    figcaption {
+        bottom : 60%;
+        margin-left: 30%;
+        font-size: 40px !important;
+    }
+  }
+   @media only screen and (max-width: 720px) and (min-width: 560px) {
+    figcaption {
+        bottom : 60%;
+        margin-left: 30%;
+        font-size: 30px !important;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
