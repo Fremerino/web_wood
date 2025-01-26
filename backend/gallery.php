@@ -36,7 +36,7 @@
 
 <body>
 <h1>Our works </h1>
-<div class="container-xxl shadow-lg position-relative p-0 mh-100">
+<div class="container-xxl shadow-lg position-relative p-0" id="main">
 
     <?php 
     $servername = "localhost";
@@ -61,7 +61,7 @@
             }
             else 
             {
-                echo '<img src="data:image/jpeg;base64,'.base64_encode($row['Photo']).'" class=" img-fluid rounded  mh-100 mw-100 min-h-100  w-100 object-fit-cover d-none " name="image" alt="...">';
+                echo '<img src="data:image/jpeg;base64,'.base64_encode($row['Photo']).'" class=" img-fluid rounded  mh-100 mw-100 min-h-100 h-100 w-100 object-fit-cover d-none " name="image" alt="...">';
             }
         }
     } else {

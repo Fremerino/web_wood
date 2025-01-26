@@ -12,6 +12,13 @@ h1 {
 #foot {
     margin-top: 10vh;
   }
+#main {
+    height: 80vh;
+}
+a {
+    text-decoration: none;
+  }
+
 
   @media only screen and (max-width: 900px) {
     h1 {

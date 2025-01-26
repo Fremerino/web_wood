@@ -12,7 +12,7 @@ if(position==0)
 else 
 {  
     images[position].style.display = "none"; 
-    images[position-1].style.setProperty('display', 'block', 'important');
+    images[position-1].style.setProperty('display', 'inline', 'important');
     position--;
 }
 }
@@ -20,7 +20,7 @@ function Right_swipe() {
     if(position<2)
     {  
     images[position].style.display = "none"; 
-    images[position+1].style.setProperty('display', 'block', 'important');
+    images[position+1].style.setProperty('display', 'inline', 'important');
     position++;
 }
 }
