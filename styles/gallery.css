@@ -1,0 +1,27 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align:center;
+    margin-top: 6%;
+}
+
+#foot {
+    margin-top: 10vh;
+  }
+
+  @media only screen and (max-width: 900px) {
+    h1 {
+        text-align:center;
+        margin-top: 20%;
+    }
+  }
+  @media only screen and (max-width: 1200px) and (min-width: 900px) {
+    h1 {
+        text-align:center;
+        margin-top: 10%;
+    }
+  }
